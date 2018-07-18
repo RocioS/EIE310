@@ -13,3 +13,7 @@ subplot 222; stem(x); title('x (entrada)');
 axis([0 45 -1.5 1.5]); xlabel('n'); grid 
 subplot 224; stem(y); title('y (salida)'); 
 axis([0 45 -1.5 1.5]); xlabel('n'); grid 
+
+
+%ejemplo 4
+% h(n) = [2.5  0.1  0.38  0.9  0.1]
