@@ -1,4 +1,4 @@
-b =      % definición de h(n)
+b = [2.5 0.1 0.38 0.9 0.1]    % definición de h(n)
 b = b / (sum(b));                        % para que H(0) sea = 1
 [H, w] = freqz(b, 1);  
 Mag = abs(H);  
